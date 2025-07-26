@@ -356,5 +356,8 @@ export const deletePlayer = async (id: number) => {
 
   if (index !== -1) {
     db.splice(index, 1);
+    return true;
   }
+
+  return false;
 };

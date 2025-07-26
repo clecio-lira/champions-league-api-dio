@@ -58,16 +58,24 @@ export const updatePlayerByIdService = async (
 
   const data = await updatePlayer(id, body);
 
-  response = ok(data);
+  if (Object.keys(data).length !== 0) {
+    response = ok(data);
+  } else {
+    response = badRequest();
+  }
 
   return response;
 };
 
 export const deletePlayerByIdService = async (id: number) => {
   let response = null;
-  await deletePlayer(id);
+  const isDeleted = await deletePlayer(id);
 
-  response = ok({ message: "Deleted" });
+  if (isDeleted) {
+    response = ok({ message: "Deleted" });
+  } else {
+    response = badRequest();
+  }
 
   return response;
 };
