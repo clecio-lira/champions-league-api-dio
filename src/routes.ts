@@ -6,7 +6,12 @@ import {
   postPlayer,
   updatePlayerById,
 } from "./controllers/players-controller";
-import { getListClubs } from "./controllers/clubs-controller";
+import {
+  getClubById,
+  getListClubs,
+  postClub,
+} from "./controllers/clubs-controller";
+import { deleteClub } from "./repositories/club-repository";
 
 export const router = Router();
 
@@ -17,3 +22,6 @@ router.delete("/players/:id", deletePlayerById);
 router.patch("/players/:id", updatePlayerById);
 
 router.get("/clubs", getListClubs);
+router.get("/clubs/:id", getClubById);
+router.post("/clubs", postClub);
+router.delete("/clubs/:id", deleteClub);

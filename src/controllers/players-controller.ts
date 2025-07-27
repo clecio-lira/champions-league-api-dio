@@ -6,7 +6,6 @@ import {
   postPlayerService,
   updatePlayerByIdService,
 } from "../services/players-service";
-import { noContent } from "../utils/http-helper";
 import { StatisticsModel } from "../models/statistics-model";
 
 export const getListPlayer = async (req: Request, res: Response) => {

@@ -1,10 +1,37 @@
 [
-  {
-    "id": 1,
-    "name": "Real Madrid"
-  },
-  {
-    "id": 2,
-    "name": "Barcelona"
-  }
+  { "id": 1, "name": "Real Madrid" },
+  { "id": 2, "name": "Barcelona" },
+  { "id": 3, "name": "Manchester City" },
+  { "id": 4, "name": "Bayern Munich" },
+  { "id": 5, "name": "Paris Saint‑Germain" },
+  { "id": 6, "name": "Liverpool" },
+  { "id": 7, "name": "Inter Milan" },
+  { "id": 8, "name": "Borussia Dortmund" },
+  { "id": 9, "name": "RB Leipzig" },
+  { "id": 10, "name": "Bayer Leverkusen" },
+  { "id": 11, "name": "Atlético Madrid" },
+  { "id": 12, "name": "Atalanta" },
+  { "id": 13, "name": "Juventus" },
+  { "id": 14, "name": "Benfica" },
+  { "id": 15, "name": "Arsenal" },
+  { "id": 16, "name": "Club Brugge" },
+  { "id": 17, "name": "Shakhtar Donetsk" },
+  { "id": 18, "name": "Milan" },
+  { "id": 19, "name": "Feyenoord" },
+  { "id": 20, "name": "Sporting CP" },
+  { "id": 21, "name": "PSV Eindhoven" },
+  { "id": 22, "name": "Dinamo Zagreb" },
+  { "id": 23, "name": "Red Star Belgrade" },
+  { "id": 24, "name": "Young Boys" },
+  { "id": 25, "name": "Slovan Bratislava" },
+  { "id": 26, "name": "Monaco" },
+  { "id": 27, "name": "Sparta Prague" },
+  { "id": 28, "name": "Aston Villa" },
+  { "id": 29, "name": "Bologna" },
+  { "id": 30, "name": "Girona" },
+  { "id": 31, "name": "VfB Stuttgart" },
+  { "id": 32, "name": "Sturm Graz" },
+  { "id": 33, "name": "Lille" },
+  { "id": 34, "name": "Celtic" },
+  { "id": 35, "name": "Olympiacos" }
 ]
